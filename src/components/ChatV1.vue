@@ -13,10 +13,6 @@
     <div v-if="sessionAlert">
       {{ sessionAlert }}
     </div>
-    <div>
-      <p>{{ message }}</p>
-      <p>{{ messages }}</p>
-    </div>
   </div>
 </template>
 
