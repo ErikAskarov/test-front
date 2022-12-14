@@ -8,12 +8,13 @@ import ChatV1 from './components/ChatV1.vue'
 
 <style lang="scss">
 #app {
-  background-color: #b8eaf9;
+  background-color: #F5F7FB;
   margin: 0;
   padding: 0;
 }
 html, body {
   margin: 0px !important;
   padding: 0px !important;
+  height: 100%;
 }
 </style>
