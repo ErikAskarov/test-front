@@ -1,19 +1,17 @@
-# test__sovcombank
+# ChessFenRecognize - front
 
-## Project setup
+## Инструкция
 ```
-npm install
-```
+Для запуска приложения - npm run serve
 
-### Compiles and hot-reloads for development
-```
-npm run serve
+В ChatV1.vue находится функция отправки сообщения (в ней же в случае успешного выполнения запроса сразу подтягиваются данные с бэка)
+В папке http в index.js нужно указать url сервера, в messageAPI POST и GET запросы.
 ```
 
-### Compiles and minifies for production
+## Зависимости
 ```
-npm run build
+npm install vue
+npm install axios
+npm install sass
+npm install sass-loader
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
